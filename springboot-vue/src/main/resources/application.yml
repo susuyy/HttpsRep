@@ -1,0 +1,12 @@
+spring:
+  datasource:
+    username: "root"
+    password: "root"
+    driver-class-name: com.mysql.cj.jdbc.Driver
+    url: jdbc:mysql://localhost:3306/itcastvue?serverTimezone=GMT%2B8&useUnicode=true&characterEncoding=utf-8
+    type: com.zaxxer.hikari.HikariDataSource
+  jpa:
+    show-sql: true
+    generate-ddl: true
+    hibernate:
+      ddl-auto: update
